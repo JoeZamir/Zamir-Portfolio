@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Developer Portfolio Design System - Dark Techy Theme */
+
+@layer base {
+  :root {
+    /* Dark Portfolio Theme */
+    --background: 220 15% 8%;
+    --foreground: 210 20% 95%;
+    
+    --card: 220 15% 12%;
+    --card-foreground: 210 20% 95%;
+    
+    --popover: 220 15% 12%;
+    --popover-foreground: 210 20% 95%;
+    
+    /* Deep Blue Accent System */
+    --primary: 217 91% 60%;
+    --primary-foreground: 220 15% 8%;
+    --primary-glow: 217 91% 70%;
+    
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 210 20% 95%;
+    
+    --muted: 220 15% 15%;
+    --muted-foreground: 210 10% 70%;
+    
+    --accent: 217 91% 60%;
+    --accent-foreground: 220 15% 8%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 20% 95%;
+    
+    --border: 220 15% 18%;
+    --input: 220 15% 15%;
+    --ring: 217 91% 60%;
+    
+    --radius: 0.75rem;
+    
+    /* Portfolio Specific Colors */
+    --tech-blue: 217 91% 60%;
+    --tech-blue-dark: 217 91% 45%;
+    --tech-blue-light: 217 91% 75%;
+    --surface: 220 15% 12%;
+    --surface-elevated: 220 15% 16%;
+    --text-primary: 210 20% 95%;
+    --text-secondary: 210 10% 70%;
+    --text-muted: 210 8% 50%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--tech-blue)), hsl(var(--tech-blue-dark)));
+    --gradient-surface: linear-gradient(135deg, hsl(var(--surface)), hsl(var(--surface-elevated)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(var(--surface)));
+    
+    /* Shadows & Effects */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--tech-blue) / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(220 15% 5% / 0.5);
+    --shadow-glow: 0 0 40px hsl(var(--tech-blue) / 0.4);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
