@@ -1,39 +1,49 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { ExternalLink, Github } from 'lucide-react';
-import paymentUiImage from '@/assets/payment-ui-project.jpg';
-import weatherAppImage from '@/assets/weather-app-project.jpg';
-import travelAgencyImage from '@/assets/travel-agency-project.jpg';
+import bankingDashboard from '@/assets/bankingdashboardoop.png';
+import weatherAppImage from '@/assets/weatherapi.png';
+import SouthernersImage from '@/assets/SouthernersImage.png';
+import zamtex from '@/assets/zamtex.png';
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Payment UI Clone",
-      description: "A modern, responsive payment interface built with React and Tailwind CSS. Features card validation, form handling, and smooth animations for an optimal user experience.",
-      image: paymentUiImage,
-      technologies: ["React", "Tailwind CSS", "JavaScript", "Form Validation"],
-      demoUrl: "https://payment-ui-demo.com",
-      githubUrl: "https://github.com/username/payment-ui",
+      title: "Bank Management Dashboard - OOP",
+      description: "A simple but expandable modern banking dashboard UI built with HTML5, CSS3, and JavaScript. Features include account overviews, and transaction histories. Made to practice OOP concepts and DOM manipulation.",
+      image: bankingDashboard,
+      technologies: ["React", "CSS3", "JavaScript", "OOP Principles"],
+      demoUrl: "https://bankingdashboradoop.netlify.app/",
+      githubUrl: "https://github.com/JoeZamir/bank-management-dashboard---OOP",
     },
     {
       id: 2,
-      title: "Weather Dashboard",
-      description: "A clean weather application with real-time data, 5-day forecasts, and location-based services. Includes local storage for favorite cities and responsive design.",
+      title: "Weather API Application",
+      description: "A clean weather application working with FCC's weather API. Features DOM manipulation, API integration, and responsive design principles to provide updates based on user input.",
       image: weatherAppImage,
-      technologies: ["React", "Weather API", "Local Storage", "Responsive Design"],
-      demoUrl: "https://weather-app-demo.com",
-      githubUrl: "https://github.com/username/weather-app",
+      technologies: ["React", "Tailwind CSS", "JavaScript", "Weather API"],
+      demoUrl: "https://weatherapiappproject.netlify.app/",
+      githubUrl: "https://github.com/JoeZamir/fcc-js-projects/tree/main/FCC%20JS%20Journey/Weather%20App%20-%20Asynchronous%20JS",
     },
     {
       id: 3,
       title: "Southerners Travel Agency",
       description: "A comprehensive travel booking website concept featuring destination galleries, package browsing, and booking interfaces. Focused on Southern US destinations.",
-      image: travelAgencyImage,
+      image: SouthernersImage,
       technologies: ["React", "Tailwind CSS", "JavaScript", "UI/UX Design"],
       demoUrl: "https://southerners.netlify.app/",
       githubUrl: "https://github.com/JoeZamir/southerners-website",
     },
+    {
+      id: 4,
+      title: "Zamtex Digital Website",
+      description: "A modern digital agency website showcasing services, portfolio, and client testimonials. Built with a focus on responsive design and user experience.",
+      image: zamtex,
+      technologies: ["React", "Tailwind CSS", "TypeScript", "UI/UX Design"],
+      demoUrl: "https://zamtex.netlify.app",
+      githubUrl: "https://github.com/JoeZamir/Zamstack",
+    }
   ];
 
   return (
