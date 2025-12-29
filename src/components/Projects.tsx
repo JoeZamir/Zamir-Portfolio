@@ -38,7 +38,7 @@ const Projects = () => {
     {
       id: 4,
       title: "Zamtex Digital Website",
-      description: "A modern digital agency website showcasing services, portfolio, and client testimonials. Built with a focus on responsive design and user experience.",
+      description: "A modern digital agency website showcasing services, portfolio, Blogs, and client testimonials. Built with a focus on responsive design and user experience.",
       image: zamtex,
       technologies: ["React", "Tailwind CSS", "TypeScript", "UI/UX Design"],
       demoUrl: "https://zamtex.netlify.app",
