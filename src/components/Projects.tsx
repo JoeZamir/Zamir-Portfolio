@@ -3,13 +3,23 @@ import { Card, CardContent } from '@/components/ui/card';
 import { ExternalLink, Github } from 'lucide-react';
 import bankingDashboard from '@/assets/bankingdashboardoop.png';
 import weatherAppImage from '@/assets/weatherapi.png';
-import SouthernersImage from '@/assets/SouthernersImage.png';
-import zamtex from '@/assets/zamtex.png';
+import SouthernersImage from '@/assets/SouthernersImage.webp';
+import zamtex from '@/assets/zamtex.webp';
+import luminasPreview from '@/assets/luminas.webp';
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Luminas Luxury Lamps",
+      description: "A luxury lamp ecommerce landing page exploring theme-based lighting states, premium visual design, and clean separation of concerns. The site dynamically renders products, supports day and night lamp states, and focuses on mood-driven UI interactions.",
+      image: luminasPreview,
+      technologies: ["HTML", "CSS", "JavaScript", "UI/UX Design"],
+      demoUrl: "https://luminaslamps.netlify.app/",
+      githubUrl: "https://github.com/JoeZamir/lamp-project",
+    },
+    {
+      id: 2,
       title: "Bank Management Dashboard - OOP",
       description: "A simple but expandable modern banking dashboard UI built with HTML5, CSS3, and JavaScript. Features include account overviews, and transaction histories. Made to practice OOP concepts and DOM manipulation.",
       image: bankingDashboard,
@@ -18,7 +28,7 @@ const Projects = () => {
       githubUrl: "https://github.com/JoeZamir/bank-management-dashboard---OOP",
     },
     {
-      id: 2,
+      id: 3,
       title: "Weather API Application",
       description: "A clean weather application working with FCC's weather API. Features DOM manipulation, API integration, and responsive design principles to provide updates based on user input.",
       image: weatherAppImage,
@@ -27,7 +37,7 @@ const Projects = () => {
       githubUrl: "https://github.com/JoeZamir/fcc-js-projects/tree/main/FCC%20JS%20Journey/Weather%20App%20-%20Asynchronous%20JS",
     },
     {
-      id: 3,
+      id: 4,
       title: "Southerners Travel Agency",
       description: "A comprehensive travel booking website concept featuring destination galleries, package browsing, and booking interfaces. Focused on Southern US destinations.",
       image: SouthernersImage,
@@ -36,7 +46,7 @@ const Projects = () => {
       githubUrl: "https://github.com/JoeZamir/southerners-website",
     },
     {
-      id: 4,
+      id: 5,
       title: "Zamtex Digital Website",
       description: "A modern digital agency website showcasing services, portfolio, Blogs, and client testimonials. Built with a focus on responsive design and user experience.",
       image: zamtex,
